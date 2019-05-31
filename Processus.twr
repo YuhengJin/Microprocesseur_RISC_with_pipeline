@@ -1,0 +1,292 @@
+--------------------------------------------------------------------------------
+Release 13.4 Trace  (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+/usr/local/insa/Xilinx.ISE/13.4/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle
+ise -v 3 -s 3 -n 3 -fastpaths -xml Processus.twx Processus.ncd -o Processus.twr
+Processus.pcf
+
+Design file:              Processus.ncd
+Physical constraint file: Processus.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.21 2012-01-07)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+INS_DI<0>      |B<0>           |   10.535|
+INS_DI<0>      |C<0>           |   11.139|
+INS_DI<1>      |B<1>           |   11.079|
+INS_DI<1>      |C<1>           |   11.530|
+INS_DI<2>      |B<2>           |   10.043|
+INS_DI<2>      |C<2>           |   10.689|
+INS_DI<3>      |B<3>           |   10.103|
+INS_DI<3>      |C<3>           |   10.714|
+INS_DI<4>      |B<4>           |   11.146|
+INS_DI<4>      |C<4>           |   11.432|
+INS_DI<5>      |B<5>           |   10.294|
+INS_DI<5>      |C<5>           |   11.353|
+INS_DI<6>      |B<6>           |   10.510|
+INS_DI<6>      |C<6>           |   11.602|
+INS_DI<7>      |B<7>           |   10.566|
+INS_DI<7>      |C<7>           |   11.064|
+INS_DI<8>      |B<0>           |   10.446|
+INS_DI<8>      |B<8>           |    9.977|
+INS_DI<9>      |B<1>           |   10.680|
+INS_DI<9>      |B<9>           |   10.453|
+INS_DI<10>     |B<2>           |   10.347|
+INS_DI<10>     |B<10>          |   10.263|
+INS_DI<11>     |B<3>           |   10.308|
+INS_DI<11>     |B<11>          |   10.506|
+INS_DI<12>     |B<4>           |   10.598|
+INS_DI<12>     |B<12>          |   10.480|
+INS_DI<13>     |B<5>           |   10.535|
+INS_DI<13>     |B<13>          |   10.342|
+INS_DI<14>     |B<6>           |   10.790|
+INS_DI<14>     |B<14>          |   10.580|
+INS_DI<15>     |B<7>           |   10.907|
+INS_DI<15>     |B<15>          |   10.450|
+INS_DI<16>     |A<0>           |    6.394|
+INS_DI<17>     |A<1>           |    6.125|
+INS_DI<18>     |A<2>           |    6.569|
+INS_DI<19>     |A<3>           |    6.348|
+INS_DI<20>     |A<4>           |    6.316|
+INS_DI<21>     |A<5>           |    6.503|
+INS_DI<22>     |A<6>           |    6.419|
+INS_DI<23>     |A<7>           |    6.320|
+INS_DI<24>     |B<0>           |   12.704|
+INS_DI<24>     |B<1>           |   11.854|
+INS_DI<24>     |B<2>           |   12.647|
+INS_DI<24>     |B<3>           |   12.328|
+INS_DI<24>     |B<4>           |   12.397|
+INS_DI<24>     |B<5>           |   12.490|
+INS_DI<24>     |B<6>           |   12.491|
+INS_DI<24>     |B<7>           |   12.370|
+INS_DI<24>     |B<8>           |   12.235|
+INS_DI<24>     |B<9>           |   11.627|
+INS_DI<24>     |B<10>          |   12.563|
+INS_DI<24>     |B<11>          |   12.526|
+INS_DI<24>     |B<12>          |   12.279|
+INS_DI<24>     |B<13>          |   12.297|
+INS_DI<24>     |B<14>          |   12.281|
+INS_DI<24>     |B<15>          |   11.913|
+INS_DI<24>     |C<0>           |   12.656|
+INS_DI<24>     |C<1>           |   12.649|
+INS_DI<24>     |C<2>           |   12.509|
+INS_DI<24>     |C<3>           |   12.436|
+INS_DI<24>     |C<4>           |   12.385|
+INS_DI<24>     |C<5>           |   12.356|
+INS_DI<24>     |C<6>           |   12.662|
+INS_DI<24>     |C<7>           |   12.555|
+INS_DI<24>     |OP<0>          |    6.547|
+INS_DI<25>     |B<0>           |   12.609|
+INS_DI<25>     |B<1>           |   11.759|
+INS_DI<25>     |B<2>           |   12.552|
+INS_DI<25>     |B<3>           |   12.233|
+INS_DI<25>     |B<4>           |   12.302|
+INS_DI<25>     |B<5>           |   12.395|
+INS_DI<25>     |B<6>           |   12.396|
+INS_DI<25>     |B<7>           |   12.275|
+INS_DI<25>     |B<8>           |   12.140|
+INS_DI<25>     |B<9>           |   11.532|
+INS_DI<25>     |B<10>          |   12.468|
+INS_DI<25>     |B<11>          |   12.431|
+INS_DI<25>     |B<12>          |   12.184|
+INS_DI<25>     |B<13>          |   12.202|
+INS_DI<25>     |B<14>          |   12.186|
+INS_DI<25>     |B<15>          |   11.818|
+INS_DI<25>     |C<0>           |   12.561|
+INS_DI<25>     |C<1>           |   12.554|
+INS_DI<25>     |C<2>           |   12.414|
+INS_DI<25>     |C<3>           |   12.341|
+INS_DI<25>     |C<4>           |   12.290|
+INS_DI<25>     |C<5>           |   12.261|
+INS_DI<25>     |C<6>           |   12.567|
+INS_DI<25>     |C<7>           |   12.460|
+INS_DI<25>     |OP<1>          |    6.094|
+INS_DI<26>     |B<0>           |   12.827|
+INS_DI<26>     |B<1>           |   11.977|
+INS_DI<26>     |B<2>           |   12.770|
+INS_DI<26>     |B<3>           |   12.451|
+INS_DI<26>     |B<4>           |   12.520|
+INS_DI<26>     |B<5>           |   12.613|
+INS_DI<26>     |B<6>           |   12.614|
+INS_DI<26>     |B<7>           |   12.493|
+INS_DI<26>     |B<8>           |   12.358|
+INS_DI<26>     |B<9>           |   11.750|
+INS_DI<26>     |B<10>          |   12.686|
+INS_DI<26>     |B<11>          |   12.649|
+INS_DI<26>     |B<12>          |   12.402|
+INS_DI<26>     |B<13>          |   12.420|
+INS_DI<26>     |B<14>          |   12.404|
+INS_DI<26>     |B<15>          |   12.036|
+INS_DI<26>     |C<0>           |   12.779|
+INS_DI<26>     |C<1>           |   12.772|
+INS_DI<26>     |C<2>           |   12.632|
+INS_DI<26>     |C<3>           |   12.559|
+INS_DI<26>     |C<4>           |   12.508|
+INS_DI<26>     |C<5>           |   12.479|
+INS_DI<26>     |C<6>           |   12.785|
+INS_DI<26>     |C<7>           |   12.678|
+INS_DI<26>     |OP<2>          |    5.924|
+INS_DI<27>     |B<0>           |   11.558|
+INS_DI<27>     |B<1>           |   10.708|
+INS_DI<27>     |B<2>           |   11.501|
+INS_DI<27>     |B<3>           |   11.182|
+INS_DI<27>     |B<4>           |   11.251|
+INS_DI<27>     |B<5>           |   11.344|
+INS_DI<27>     |B<6>           |   11.345|
+INS_DI<27>     |B<7>           |   11.224|
+INS_DI<27>     |B<8>           |   11.089|
+INS_DI<27>     |B<9>           |   10.481|
+INS_DI<27>     |B<10>          |   11.417|
+INS_DI<27>     |B<11>          |   11.380|
+INS_DI<27>     |B<12>          |   11.133|
+INS_DI<27>     |B<13>          |   11.151|
+INS_DI<27>     |B<14>          |   11.135|
+INS_DI<27>     |B<15>          |   10.767|
+INS_DI<27>     |C<0>           |   11.510|
+INS_DI<27>     |C<1>           |   11.503|
+INS_DI<27>     |C<2>           |   11.363|
+INS_DI<27>     |C<3>           |   11.290|
+INS_DI<27>     |C<4>           |   11.239|
+INS_DI<27>     |C<5>           |   11.210|
+INS_DI<27>     |C<6>           |   11.516|
+INS_DI<27>     |C<7>           |   11.409|
+INS_DI<27>     |OP<3>          |    6.195|
+INS_DI<28>     |B<0>           |   12.645|
+INS_DI<28>     |B<1>           |   11.795|
+INS_DI<28>     |B<2>           |   12.588|
+INS_DI<28>     |B<3>           |   12.269|
+INS_DI<28>     |B<4>           |   12.338|
+INS_DI<28>     |B<5>           |   12.431|
+INS_DI<28>     |B<6>           |   12.432|
+INS_DI<28>     |B<7>           |   12.311|
+INS_DI<28>     |B<8>           |   12.176|
+INS_DI<28>     |B<9>           |   11.568|
+INS_DI<28>     |B<10>          |   12.504|
+INS_DI<28>     |B<11>          |   12.467|
+INS_DI<28>     |B<12>          |   12.220|
+INS_DI<28>     |B<13>          |   12.238|
+INS_DI<28>     |B<14>          |   12.222|
+INS_DI<28>     |B<15>          |   11.854|
+INS_DI<28>     |C<0>           |   12.597|
+INS_DI<28>     |C<1>           |   12.590|
+INS_DI<28>     |C<2>           |   12.450|
+INS_DI<28>     |C<3>           |   12.377|
+INS_DI<28>     |C<4>           |   12.326|
+INS_DI<28>     |C<5>           |   12.297|
+INS_DI<28>     |C<6>           |   12.603|
+INS_DI<28>     |C<7>           |   12.496|
+INS_DI<28>     |OP<4>          |    7.497|
+INS_DI<29>     |B<0>           |   12.543|
+INS_DI<29>     |B<1>           |   11.693|
+INS_DI<29>     |B<2>           |   12.486|
+INS_DI<29>     |B<3>           |   12.167|
+INS_DI<29>     |B<4>           |   12.236|
+INS_DI<29>     |B<5>           |   12.329|
+INS_DI<29>     |B<6>           |   12.330|
+INS_DI<29>     |B<7>           |   12.209|
+INS_DI<29>     |B<8>           |   12.074|
+INS_DI<29>     |B<9>           |   11.466|
+INS_DI<29>     |B<10>          |   12.402|
+INS_DI<29>     |B<11>          |   12.365|
+INS_DI<29>     |B<12>          |   12.118|
+INS_DI<29>     |B<13>          |   12.136|
+INS_DI<29>     |B<14>          |   12.120|
+INS_DI<29>     |B<15>          |   11.752|
+INS_DI<29>     |C<0>           |   12.495|
+INS_DI<29>     |C<1>           |   12.488|
+INS_DI<29>     |C<2>           |   12.348|
+INS_DI<29>     |C<3>           |   12.275|
+INS_DI<29>     |C<4>           |   12.224|
+INS_DI<29>     |C<5>           |   12.195|
+INS_DI<29>     |C<6>           |   12.501|
+INS_DI<29>     |C<7>           |   12.394|
+INS_DI<29>     |OP<5>          |    7.250|
+INS_DI<30>     |B<0>           |   12.410|
+INS_DI<30>     |B<1>           |   11.560|
+INS_DI<30>     |B<2>           |   12.353|
+INS_DI<30>     |B<3>           |   12.034|
+INS_DI<30>     |B<4>           |   12.103|
+INS_DI<30>     |B<5>           |   12.196|
+INS_DI<30>     |B<6>           |   12.197|
+INS_DI<30>     |B<7>           |   12.076|
+INS_DI<30>     |B<8>           |   11.941|
+INS_DI<30>     |B<9>           |   11.333|
+INS_DI<30>     |B<10>          |   12.269|
+INS_DI<30>     |B<11>          |   12.232|
+INS_DI<30>     |B<12>          |   11.985|
+INS_DI<30>     |B<13>          |   12.003|
+INS_DI<30>     |B<14>          |   11.987|
+INS_DI<30>     |B<15>          |   11.619|
+INS_DI<30>     |C<0>           |   12.362|
+INS_DI<30>     |C<1>           |   12.355|
+INS_DI<30>     |C<2>           |   12.215|
+INS_DI<30>     |C<3>           |   12.142|
+INS_DI<30>     |C<4>           |   12.091|
+INS_DI<30>     |C<5>           |   12.062|
+INS_DI<30>     |C<6>           |   12.368|
+INS_DI<30>     |C<7>           |   12.261|
+INS_DI<30>     |OP<6>          |    6.992|
+INS_DI<31>     |B<0>           |   13.159|
+INS_DI<31>     |B<1>           |   12.309|
+INS_DI<31>     |B<2>           |   13.102|
+INS_DI<31>     |B<3>           |   12.783|
+INS_DI<31>     |B<4>           |   12.852|
+INS_DI<31>     |B<5>           |   12.945|
+INS_DI<31>     |B<6>           |   12.946|
+INS_DI<31>     |B<7>           |   12.825|
+INS_DI<31>     |B<8>           |   12.690|
+INS_DI<31>     |B<9>           |   12.082|
+INS_DI<31>     |B<10>          |   13.018|
+INS_DI<31>     |B<11>          |   12.981|
+INS_DI<31>     |B<12>          |   12.734|
+INS_DI<31>     |B<13>          |   12.752|
+INS_DI<31>     |B<14>          |   12.736|
+INS_DI<31>     |B<15>          |   12.368|
+INS_DI<31>     |C<0>           |   13.111|
+INS_DI<31>     |C<1>           |   13.104|
+INS_DI<31>     |C<2>           |   12.964|
+INS_DI<31>     |C<3>           |   12.891|
+INS_DI<31>     |C<4>           |   12.840|
+INS_DI<31>     |C<5>           |   12.811|
+INS_DI<31>     |C<6>           |   13.117|
+INS_DI<31>     |C<7>           |   13.010|
+INS_DI<31>     |OP<7>          |    7.070|
+---------------+---------------+---------+
+
+
+Analysis completed Wed May 29 08:30:44 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 387 MB
+
+
+

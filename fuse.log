@@ -1,0 +1,33 @@
+Running: /usr/local/insa/Xilinx.ISE/13.4/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -lib "secureip" -o "/home/yujin/4B/ArchiMat/Projet-System-Info/TestProcessus_isim_beh.exe" -prj "/home/yujin/4B/ArchiMat/Projet-System-Info/TestProcessus_beh.prj" "work.TestProcessus" 
+ISim O.87xd (signature 0x8ddf5b5d)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/yujin/4B/ArchiMat/Projet-System-Info/Registre.vhd" into library work
+Parsing VHDL file "/home/yujin/4B/ArchiMat/Projet-System-Info/pipeline.vhd" into library work
+Parsing VHDL file "/home/yujin/4B/ArchiMat/Projet-System-Info/Memory.vhd" into library work
+Parsing VHDL file "/home/yujin/4B/ArchiMat/Projet-System-Info/Decodeur.vhd" into library work
+Parsing VHDL file "/home/yujin/4B/ArchiMat/Projet-System-Info/ALU.vhd" into library work
+Parsing VHDL file "/home/yujin/4B/ArchiMat/Projet-System-Info/Processus.vhd" into library work
+Parsing VHDL file "/home/yujin/4B/ArchiMat/Projet-System-Info/TestProcessus.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 96524 KB
+Fuse CPU Usage: 960 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity Decodeur [decodeur_default]
+Compiling architecture behavioral of entity Registre [registre_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity pipeline [pipeline_default]
+Compiling architecture behavioral of entity Memory [memory_default]
+Compiling architecture behavioral of entity Processus [processus_default]
+Compiling architecture behavior of entity testprocessus
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 16 VHDL Units
+Built simulation executable /home/yujin/4B/ArchiMat/Projet-System-Info/TestProcessus_isim_beh.exe
+Fuse Memory Usage: 668516 KB
+Fuse CPU Usage: 1040 ms
+GCC CPU Usage: 150 ms

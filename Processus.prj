@@ -1,0 +1,6 @@
+vhdl work "Registre.vhd"
+vhdl work "pipeline.vhd"
+vhdl work "Memory.vhd"
+vhdl work "Decodeur.vhd"
+vhdl work "ALU.vhd"
+vhdl work "Processus.vhd"

@@ -1,0 +1,11 @@
+[Inputs]
+=A[15:0]=
+=B[15:0]=
+=Ctr_Alu[3:0]=
+[Outputs]
+C
+O
+N
+Z
+=S[15:0]=
+[BiDir]

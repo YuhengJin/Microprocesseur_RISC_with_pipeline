@@ -1,0 +1,12 @@
+vhdtdtfi -lib work Decodeur.vhd -prj Projet-System-Info -o Decodeur.spl -module Decodeur -template /usr/local/insa/Xilinx.ISE/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Decodeur.spl /home/yujin/4B/ArchiMat/Projet-System-Info/Decodeur.sym 
+vhdtdtfi -lib work Decodeur.vhd -prj Projet-System-Info -o Decodeur.spl -module Decodeur -template /usr/local/insa/Xilinx.ISE/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Decodeur.spl /home/yujin/4B/ArchiMat/Projet-System-Info/Decodeur.sym 
+vhdtdtfi -lib work Decodeur.vhd -prj Projet-System-Info -o Decodeur.spl -module Decodeur -template /usr/local/insa/Xilinx.ISE/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Decodeur.spl /home/yujin/4B/ArchiMat/Projet-System-Info/Decodeur.sym 
+vhdtdtfi -lib work Decodeur.vhd -prj Projet-System-Info -o Decodeur.spl -module Decodeur -template /usr/local/insa/Xilinx.ISE/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Decodeur.spl /home/yujin/4B/ArchiMat/Projet-System-Info/Decodeur.sym 
+vhdtdtfi -lib work Decodeur.vhd -prj Projet-System-Info -o Decodeur.spl -module Decodeur -template /usr/local/insa/Xilinx.ISE/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Decodeur.spl /home/yujin/4B/ArchiMat/Projet-System-Info/Decodeur.sym 
+vhdtdtfi -lib work Decodeur.vhd -prj Projet-System-Info -o Decodeur.spl -module Decodeur -template /usr/local/insa/Xilinx.ISE/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Decodeur.spl /home/yujin/4B/ArchiMat/Projet-System-Info/Decodeur.sym 

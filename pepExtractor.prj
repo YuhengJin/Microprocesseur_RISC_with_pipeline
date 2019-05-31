@@ -1,0 +1,4 @@
+work	"ALU.vhd"
+work	"Processus.vhd"
+work	"Registre.vhd"
+work	"pipeline.vhd"

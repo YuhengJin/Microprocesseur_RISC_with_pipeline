@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/yujin/4B/ArchiMat/Projet-System-Info/ALU.ncd
+OUTFILE=/home/yujin/4B/ArchiMat/Projet-System-Info/ALU.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=/home/yujin/4B/ArchiMat/Projet-System-Info
+LICENSE=ISE
+USER_INFO=202067218_1777487267_210567960_160

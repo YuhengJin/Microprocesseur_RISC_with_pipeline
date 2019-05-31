@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/yujin/4B/ArchiMat/Projet-System-Info/TestProcessus_isim_beh.exe" -prj "/home/yujin/4B/ArchiMat/Projet-System-Info/TestProcessus_beh.prj" "work.TestProcessus" 
